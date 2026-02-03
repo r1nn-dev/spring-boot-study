@@ -37,7 +37,7 @@
 ```txt
 src/main/java           // 자바 소스 코드
 └─ <base-package>       // 기본 패키지 - `com.example.project`
-└─ Application.java     // 애플리케이션 진입점
+	└─ Application.java     // 애플리케이션 진입점
 
 src/main/resources      // 외부 파일 - 설정 파일, 정적 리소스(static), 템플릿 파일 등
 ├─ templates            // View Template (Mustache)
