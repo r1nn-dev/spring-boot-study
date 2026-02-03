@@ -1,4 +1,4 @@
-# 1. 스프링 부트 (Spring Boot)
+# 스프링 부트 (Spring Boot)
 
 ## 1. Spring Boot의 핵심 구성 요소
 - **Auto-Configuration**
