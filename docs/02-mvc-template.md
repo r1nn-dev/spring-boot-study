@@ -2,9 +2,8 @@
 
 ## 1. MVC 패턴 개요
 뷰 템플릿(View Template)
-- 사용자에게 보여지는 웹 페이지 화면(View)을 하나의 템플릿(Template)으로 만들고, 여기에 데이터를 주입하여 다양한 화면을 생성하는 방식이다.
-MVC 패턴(Model–View–Controller Pattern)
-- 웹 애플리케이션의 책임을 분리하여 유지보수성, 확장성, 테스트 용이성을 높이기 위한 아키텍처 패턴
+- 사용자에게 보여지는 웹 페이지 화면(View)을 하나의 템플릿(Template)으로 만들고, 여기에 데이터를 주입하여 다양한 화면을 생성하는 방식 
+- MVC 패턴(Model–View–Controller Pattern) : 웹 애플리케이션의 책임을 분리하여 유지보수성, 확장성, 테스트 용이성을 높이기 위한 아키텍처 패턴
 - Model : 애플리케이션의 데이터와 상태를 관리한다.
 - View : 사용자에게 보여지는 웹 페이지 화면을 담당한다.
 - Controller : 클라이언트의 요청을 받아 처리 흐름을 제어하고, Model을 구성하여 View로 전달한다.
@@ -14,7 +13,7 @@ MVC 패턴(Model–View–Controller Pattern)
 2. 컨트롤러가 요청을 매핑하여 처리 메서드를 실행한다.
 3. 컨트롤러가 비즈니스 로직을 수행하고 Model에 데이터를 담는다.
 4. 컨트롤러가 View 이름(view name)을 반환한다.
-5. 스프링이 `templates`에서 템플릿을 찾아 렌더링한 뒤 응답한다.
+5. 스프링이 templates에서 템플릿을 찾아 렌더링한 뒤 응답한다.
 
 ## 3. View Template (Mustache)
 
