@@ -21,5 +21,18 @@ public class FirstController {
         // 서버가 templates 디렉터리에서 파일 찾아 웹 브라우저로 전송
         return "greetings";
     }
+    @GetMapping("/bye")   // URL 요청 접수 - 메서드가 요청을 처리하도록 매핑
+    // seeYouNext() 메서드 작성
+    public String seeYouNext(Model model) {  // 모델 받아오기 - 파라미터에 추가
+        // 1) Model에 데이터 등록: addAttribute(key, value)
+        // 컨트롤러가 Model에 데이터를 담는다:
+        // 변숫값을 "변수명"이라는 이름(key)으로 추가
+        // model 객체가 "사용자" 값을 "nickname"에 연결해 웹 브라우저로 보냄
+        model.addAttribute("nickname", "사용자"); // 모델 변수 등록
+        // 2) 뷰 이름 반환
+        // template/goodbye.mustache -> 브라우저로 전송 - 뷰 템플릿 페이지 반환
+        // 서버가 templates 디렉터리에서 파일 찾아 웹 브라우저로 전송
+        return "goodbye";
+    }
 
 }
