@@ -1,9 +1,6 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>{{nickname}}님, 다음에 또 만나요!</h1>
-</body>
-</html>
+{{>layouts/header}}   <!헤더 레이아웃 적용>
+    <!-- content -->
+    <div class="bg-dark text-white p-5">
+        <h1>{{nickname}}님, 다음에 또 만나요!</h1>
+    </div>
+{{>layouts/footer}}  <!푸터 레이아웃 적용>
