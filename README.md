@@ -25,20 +25,22 @@ spring-boot-study/
 │  ├─ 15
 │  └─ 16
 ├─ firstproject/                # 기존 통합 실습 (임시 유지)
-├─ 01-first-project/springproject/   # first project
-├─ 02-second-project/springproject/
-├─ 02-template-project/ 
-├─ 03-third-project/
+├─ 01-first-project/springproject/
+├─ 02-mvc-project/
+│  ├─ springproject
+│  ├─ templateproject
+│  └─ bootstrapproject
+├─ 03-Create-project/springproject/
+├─ 04-lombok-project/springproject/
 
 
-├─ 04-fourth-project/
-├─ 05-fifth-project/
-├─ 06-sixth-project/
-├─ 07-seventh-project/
-├─ 08-eighth-project/
-├─ 09-ninth-project/
-├─ 10-tenth-project/
-├─ 11-eleventh-project/
-├─ 12-twelfth-project/
-└─ 13-thirteenth-project/
+├─ 05-Read-project/springproject/
+├─ 06-sixth-project/springproject/
+├─ 07-Update-project/springproject/
+├─ 08-Delete-project/springproject/
+├─ 09-ninth-project/springproject/
+├─ 10-restapi-project/springproject/
+├─ 11-eleventh-project/springproject/
+├─ 12-twelfth-project/springproject/
+└─ 13-thirteenth-project/springproject/
 ```
