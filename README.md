@@ -25,8 +25,8 @@ spring-boot-study/
 │  ├─ 15
 │  └─ 16
 ├─ firstproject/                # 기존 통합 실습 (임시 유지)
-├─ 01-first-project/
-├─ 02-second-project/
+├─ 01-first-project/springproject/   # first project
+├─ 02-second-project/springproject/
 ├─ 02-template-project/ 
 ├─ 03-third-project/
 
