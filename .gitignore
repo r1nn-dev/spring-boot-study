@@ -1,0 +1,29 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+**/build/
+
+# Java
+*.class
+out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.local
+
+# VSCode
+.vscode/
+
+# Build tools
+bin/
+target/
