@@ -1,0 +1,27 @@
+<style>
+    .my-cool-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);   /* 그림자 효과 */
+        transition: all 0.3s ease;                   /* 부드러운 애니메이션 */
+    }
+    .my-cool-button:hover{
+        background-color: #45a049;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);   /* 호버시 그림자 확장 */
+    }
+    .my-cool-button:active {
+        background-color: #3e8e41;
+        transform: translateY(2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);   /* 클릭시 그림자 축소 */
+    }
+</style>
+
+<body>
+<button class="my-cool-button">{{.}}</button>
+</body>
