@@ -1,27 +1,25 @@
-{{>layouts/header}}
-
-<form class="container" action="/articles/create" method="post">
-
-    <div class="mb-3">
-        <label class="form-label" for="title">제목</label>
-        <input class="form-control" id="title" name="title" required/>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="/articles/create" method="post">
+    <div>
+        <label>제목</label>
+        <input name="title">
     </div>
-
-    <div class="mb-3">
-        <label class="form-label" for="content">내용</label>
-        <textarea class="form-control"
-                  id="content"
-                  name="content"
-                  rows="4"
-                  cols="50"
-                  required></textarea>
+    <div>
+        <label>내용</label>
+        <textarea name="content"></textarea>
     </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-
-    <!-- 다음 단계에서 구현 -->
+    <button type="submit">Submit</button>
     <a href="/articles">목록 페이지</a>
-
 </form>
 
-{{>layouts/footer}}
+</body>
+</html>

@@ -2,6 +2,8 @@ package com.example.springproject.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
 import jakarta.persistence.*;
@@ -13,6 +15,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Article {
 
+    @Setter
+    @Getter
+    @jakarta.persistence.Id
+    private Long id1;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,8 +32,11 @@ public class Article {
         this.content = content;
     }
 
-    // 로그 출력
-    public void logInfo() {
-        log.info("id: {}, title: {}, content: {}", id, title, content);
+    public Article() {
+
+    }
+
+    public String getId() {
+        return "";
     }
 }
