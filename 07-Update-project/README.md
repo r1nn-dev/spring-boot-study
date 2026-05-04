@@ -1,1 +1,1 @@
-# Spring Boot — Update: 게시글 삭제 
+# Spring Boot — Update: 게시글 수정 
