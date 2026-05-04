@@ -1,1 +1,1 @@
-# Delete Project
+# Spring Boot — Delete: 게시글 삭제 
