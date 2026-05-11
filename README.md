@@ -13,7 +13,7 @@ spring-boot-study/
 │  ├─ 03-CRUD-create.md
 │  ├─ 04-lombok.md
 │  ├─ 05.CRUD-read.md
-│  ├─ 06-.md
+│  ├─ 06-move.md
 │  ├─ 07-CRUD-update.md
 │  ├─ 08.CRUD-delete.md
 │  ├─ 09-.md
@@ -32,12 +32,14 @@ spring-boot-study/
 │  └─ bootstrapproject
 ├─ 03-Create-project/springproject/
 ├─ 04-lombok-project/springproject/
-
-
 ├─ 05-Read-project/springproject/
-├─ 06-sixth-project/springproject/
+├─ 06-move-project/springproject/
 ├─ 07-Update-project/springproject/
-├─ 08-Delete-project/springproject/
+├─ 08-Delete-project/
+│  ├─ springproject
+│  └─ memberproject
+
+
 ├─ 09-ninth-project/springproject/
 ├─ 10-restapi-project/springproject/
 ├─ 11-eleventh-project/springproject/
