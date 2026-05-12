@@ -15,8 +15,8 @@ INSERT INTO Article(title, content) VALUES
 ```
 ### 구현하기
 1. REST 컨트롤러: `api/ArticleApiController.java`
-2. DTO: `dto/ArticleApiDTO.java`
-3. Entity: `entity/entityArticleApi.java`
+2. DTO: `dto/ArticleApiDTO.java`, `dto/ArticleUpdateDTO.java`
+3. Entity: `entity/Article.java`
 4. Repository: `repository/ArticleApiRepository.java`
 
 
@@ -30,6 +30,6 @@ INSERT INTO coffee(name, price) VALUES('카페 모카', '5500');
 ```
 ### 구현하기
 1. REST 컨트롤러: `api/CoffeeApiController.java`
-2. DTO: `dto/CoffeeDTO.java`
-3. Entity: `entity/entityCoffee.java`
+2. DTO: `dto/CoffeeDTO.java`, `dto/CoffeeUpdateDTO.java`
+3. Entity: `entity/Coffee.java`
 4. Repository: `repository/CoffeeRepository.java`
