@@ -1,8 +1,8 @@
 package com.example.boardproject.repository;
 
-import com.example.boardproject.api.Article;
+import com.example.boardproject.entity.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public class ArticleRepository extends JpaRepository<Article,Integer> {
-
+public interface ArticleRepository extends JpaRepository<Article, Long> {
 }
