@@ -45,9 +45,9 @@ public class StreamEx3 {
         // 2-2) 중간 연산 - 이름의 길이가 3개 초과인 이름 필터링, 대문자 변환
         // 2-3) 최종 연산 - 오름차순 정렬
         names.stream()
-                .filter(name -> name.length() > 3)   // {"Jerry", "Spike", "Tyke", "Alice", "Tommy", "Trump"}
-                .map(name -> name.toUpperCase())     // {"JERRY", "SPIKE", "TYKE", "ALICE", "TOMMY", "TRUMP"}
-                .sorted()                                  // {"ALICE", "JERRY", "SPIKE", "TOMMY", "TRUMP", "TYKE"}
+                .filter(name -> name.length() > 3)   // "Jerry", "Spike", "Tyke", "Alice", "Tommy", "Trump"
+                .map(name -> name.toUpperCase())     // "JERRY", "SPIKE", "TYKE", "ALICE", "TOMMY", "TRUMP"
+                .sorted()                                  // "ALICE", "JERRY", "SPIKE", "TOMMY", "TRUMP", "TYKE"
                 .forEach(name -> System.out.print(name + " "));
     }
 }
