@@ -1,6 +1,4 @@
 # spring-boot-study
-study
-
 
 ### 폴더 구조
 ```text
@@ -18,9 +16,12 @@ spring-boot-study/
 │  ├─ 08-crud-delete.md
 │  ├─ 09-database-form-dto.md
 │  ├─ 10-rest-api.md
-│  ├─ 11-service-transaction.md
-│  ├─ 12-test-code.md
-│  └─ 13-comment-crud.md
+│  ├─ 11-stream.md
+│  ├─ 12-service-transaction.md
+
+
+│  ├─ 13-test-code.md
+│  └─ 14-comment-crud.md
 │
 ├─ firstproject/                # 기존 통합 실습 (임시 유지)
 ├─ 01-first-project/springproject/
@@ -37,9 +38,14 @@ spring-boot-study/
 │  ├─ springproject                       #
 │  └─ memberproject                       # 
 ├─ 09-database-form-dto/springproject/
-├─ 10-restapi-project/springproject/
-├─ 11-service-project/springproject/
-├─ 12-test-code-project/springproject/
-├─ 13-comment-project/springproject/
-└─ 13-board-project/boardproject/          # 최종 프로젝트
+├─ 10-restapi-project/
+│  ├─ boardproject                        #
+│  └─ coffeeproject                       # 
+├─ 11-stream-project/springproject/
+├─ 12-service-project/springproject/
+
+
+├─ 13-test-code-project/springproject/
+├─ 14-comment-project/springproject/
+└─ 15-board-project/boardproject/          # 최종 프로젝트
 ```
