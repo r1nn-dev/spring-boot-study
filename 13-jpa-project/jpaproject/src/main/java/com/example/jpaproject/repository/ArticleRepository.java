@@ -1,4 +1,7 @@
 package com.example.jpaproject.repository;
 
-public interface ArticleRepository {
+import com.example.jpaproject.domain.Article;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ArticleRepository extends JpaRepository<Article, Long> {
 }
