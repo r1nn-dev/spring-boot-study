@@ -9,16 +9,16 @@ spring-boot-study/
 │  ├─ 01-spring-boot-overview.md 
 │  ├─ 02-mvc-view-template.md
 │  ├─ 03-crud-create.md
-│  ├─ 04-lombok.md
+│  ├─ 04-lombok-refactoring.md
 │  ├─ 05-crud-read.md
 │  ├─ 06-page-navigation.md
 │  ├─ 07-crud-update.md
 │  ├─ 08-crud-delete.md
 │  ├─ 09-database-form-dto.md
 │  ├─ 10-rest-api.md
-│  ├─ 11-stream.md
-│  ├─ 12-service-transaction.md    #
-│  ├─ 13-spring-data-jpa           #
+│  ├─ 11-java-stream.md
+│  ├─ 12-service-transaction.md    
+│  ├─ 13-spring-data-jpa           
 │  ├─ 14-test-code.md              #
 │  └─ 15-comment-crud.md           #
 │
