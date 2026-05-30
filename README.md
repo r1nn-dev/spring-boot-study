@@ -28,20 +28,20 @@ spring-boot-study/
 │  ├─ springproject                       # mvc-project
 │  ├─ templateproject                     # template-project
 │  └─ bootstrapproject                    # bootstrap-project
-├─ 03-Create-project/springproject/
-├─ 04-lombok-project/springproject/
-├─ 05-Read-project/springproject/
-├─ 06-navigation-project/springproject/
-├─ 07-Update-project/springproject/
-├─ 08-Delete-project/
+├─ 03-crud-create/springproject/
+├─ 04-lombok-refactoring/springproject/
+├─ 05-crud-read/springproject/
+├─ 06-page-navigation/springproject/
+├─ 07-crud-update/springproject/
+├─ 08-crud-delete/
 │  ├─ springproject                       # delete-project
 │  └─ memberproject                       # memeber-project
 ├─ 09-database-form-dto/springproject/
-├─ 10-restapi-project/
+├─ 10-rest-api/
 │  ├─ boardproject                        # restapi-project
 │  └─ coffeeproject                       # coffee-project
-├─ 11-stream-project/springproject/
-├─ 12-service-project/boardproject/       
+├─ 11-java-stream/springproject/
+├─ 12-service-transaction/boardproject/       
 ├─ 13-jpa-project/boardproject/
 ├─ 14-test-code-project/springproject/
 ├─ 15-comment-project/springproject/
