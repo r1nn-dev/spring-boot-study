@@ -7,7 +7,9 @@
 
 <h1>Persons</h1>
 {{#persons}}
-    {{.}}
     <p>{{name}} | {{age}} | {{address}}</p>
     <!-- {{name}} | {{age}} | {{address}} -->
+{{/persons}}
+{{#persons}}
+    {{.}}
 {{/persons}}
