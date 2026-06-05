@@ -1,9 +1,10 @@
-package com.example.templateproject;
+package com.example.templateproject.controller;
 
 public class Person {
-    private String name;
-    private int age;
-    private String address;
+
+    private final String name;
+    private final int age;
+    private final String address;
 
     // Constructor: 우클릭 > Generate > Constructor(생성자) > [Shift + 선택]
     public Person(String name, int age, String address) {
@@ -33,4 +34,5 @@ public class Person {
                 ", address='" + address + '\'' +
                 '}';
     }
+
 }
