@@ -10,6 +10,9 @@ import java.util.List;
 @Controller                             // Spring MVC가 해당 클래스를 Controller로 인식하게 한다.
 public class MyController {
 
+    /*
+     * 1. 기본 View Template 동작 확인
+     */
     @GetMapping("/welcome")             // "/welcome"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String welcome(Model model) {
 
@@ -21,6 +24,9 @@ public class MyController {
 
     }
 
+    /*
+     * 2. Mustache — 객체 데이터 출력
+     */
     @GetMapping("/objectex")           // "/objectex"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String person(Model model) {
 
@@ -34,6 +40,9 @@ public class MyController {
 
     }
 
+    /*
+     * 3. Mustache — 조건 처리
+     */
     @GetMapping("/conditionex")            // "/conditionex"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String login(Model model) {
 
@@ -48,6 +57,9 @@ public class MyController {
 
     }
 
+    /*
+     * 4. Mustache — 반복 처리
+     */
     @GetMapping("/loopex")                    // "/loopex"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String getPersonList(Model model) {
         String[] fruits = {"apple", "banana", "orange"};
@@ -68,6 +80,9 @@ public class MyController {
 
     }
 
+    /*
+     * 5. Mustache — Partial 실습
+     */
     @GetMapping("/partialex")     // "/partialex"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String partialex(Model model) {
 
@@ -81,6 +96,9 @@ public class MyController {
 
     }
 
+    /*
+     * 6. Escape / No Escape 실습
+     */
     @GetMapping("/show-input")     // "/show-input"로 들어오는 GET 요청을 이 메서드가 처리한다.
     public String showInput(Model model) {
 
