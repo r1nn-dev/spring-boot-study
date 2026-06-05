@@ -68,11 +68,17 @@ public class MyController {
 
     }
 
-    @GetMapping("/partialex")                    // "/partialex"로 들어오는 GET 요청을 이 메서드가 처리한다.
-    public String partialex(Model model) {         // Model 객체를 통해 View에 전달할 데이터를 담는다.
+    @GetMapping("/partialex")     // "/partialex"로 들어오는 GET 요청을 이 메서드가 처리한다.
+    public String partialex(Model model) {
+
+        //
         String[] buttons = {"Cancel", "Save", "Insert"};
-        model.addAttribute("buttons", buttons);      // "buttons"이라는 이름으로 데이터를 저장한다.
-        return "partialex";                // partialex.mustache 파일을 찾아 렌더링한다.
+        // View에서 사용할 데이터를 Model에 저장한다.
+        model.addAttribute("buttons", buttons);   // "buttons"이라는 이름으로 데이터를 저장한다.
+
+        // templates에서 partialex.mustache 파일을 찾아 렌더링한다.
+        return "partialex";
+
     }
 
     @GetMapping("/show-input")                  // "/show-input"로 들어오는 GET 요청을 이 메서드가 처리한다.
