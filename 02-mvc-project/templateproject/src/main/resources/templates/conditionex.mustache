@@ -1,8 +1,12 @@
 <h1>Welcome</h1>
-<!-- 조건 -->
-{{#logedIn}}
+<!-- Mustache 문법의 기본 요소 : 조건 -->
+
+<!-- loggedIn 값이 true일 때 실행 -->
+{{#loggedIn}}
     <p>Hello, {{username}}! You're logged in.</p>
-{{/logedIn}}
-{{^logedIn}}
+{{/loggedIn}}
+
+<!-- loggedIn 값이 false일 때 실행 -->
+{{^loggedIn}}
     <p>You are not logged in. Please log in.</p>
-{{/logedIn}}
+{{/loggedIn}}
