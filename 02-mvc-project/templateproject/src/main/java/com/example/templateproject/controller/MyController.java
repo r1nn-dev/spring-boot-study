@@ -26,7 +26,7 @@ public class MyController {
 
         // 객체 생성
         Person person = new Person("아이유", 25, "서울특별시");
-        // Model에 객체 저장
+        // View에서 사용할 데이터를 Model에 저장한다.
         model.addAttribute("person", person);    // "person"이라는 이름으로 데이터를 저장한다.
 
         // templates/objectex.mustache 파일을 찾아 렌더링한다.
@@ -34,12 +34,18 @@ public class MyController {
 
     }
 
-    @GetMapping("/conditionex")       // "/conditionex"로 들어오는 GET 요청을 이 메서드가 처리한다.
-    public String login(Model model) {   // Model 객체를 통해 View에 전달할 데이터를 담는다.
-        boolean logedIn = false;
+    @GetMapping("/conditionex")            // "/conditionex"로 들어오는 GET 요청을 이 메서드가 처리한다.
+    public String login(Model model) {
+
+        // 초기화
+        boolean loggedIn = false;
+        // View에서 사용할 데이터를 Model에 저장한다.
         model.addAttribute("username", "아이유");    // "username"이라는 이름으로 데이터를 저장한다.
-        model.addAttribute("logedIn", logedIn);                 // "logedIn"이라는 이름으로 데이터를 저장한다.
-        return "conditionex";                // conditionex.mustache 파일을 찾아 렌더링한다.
+        model.addAttribute("loggedIn", loggedIn);               // "loggedIn"이라는 이름으로 데이터를 저장한다.
+
+        // templates/conditionex.mustache 파일을 찾아 렌더링한다.
+        return "conditionex";
+
     }
 
     @GetMapping("/loopex")                    // "/loopex"로 들어오는 GET 요청을 이 메서드가 처리한다.
