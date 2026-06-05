@@ -81,11 +81,17 @@ public class MyController {
 
     }
 
-    @GetMapping("/show-input")                  // "/show-input"로 들어오는 GET 요청을 이 메서드가 처리한다.
-    public String showInput(Model model) {         // Model 객체를 통해 View에 전달할 데이터를 담는다.
+    @GetMapping("/show-input")     // "/show-input"로 들어오는 GET 요청을 이 메서드가 처리한다.
+    public String showInput(Model model) {
+
+        //
         String userInput = "<b>안녕하세요! 이 텍스트는 굵게 표시됩니다.</b>";
-        model.addAttribute("userInput", userInput);      // "userInput"이라는 이름으로 데이터를 저장한다.
-        return "no-escape";                // no-escape.mustache 파일을 찾아 렌더링한다.
+        // View에서 사용할 데이터를 Model에 저장한다.
+        model.addAttribute("userInput", userInput);   // "userInput"이라는 이름으로 데이터를 저장한다.
+
+        // templates에서 no-escape.mustache 파일을 찾아 렌더링한다.
+        return "no-escape";
+
     }
 
 }
