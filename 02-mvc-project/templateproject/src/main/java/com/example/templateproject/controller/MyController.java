@@ -49,7 +49,7 @@ public class MyController {
     }
 
     @GetMapping("/loopex")                    // "/loopex"로 들어오는 GET 요청을 이 메서드가 처리한다.
-    public String getPersonList(Model model) {   // Model 객체를 통해 View에 전달할 데이터를 담는다.
+    public String getPersonList(Model model) {
         String[] fruits = {"apple", "banana", "orange"};
 
         List<Person> persons = Arrays.asList(
@@ -59,9 +59,13 @@ public class MyController {
                 new Person("안세영", 20, "광주")
         );
 
+        // View에서 사용할 데이터를 Model에 저장한다.
         model.addAttribute("fruits", fruits);      // "fruits"이라는 이름으로 데이터를 저장한다.
         model.addAttribute("persons", persons);    // "persons"이라는 이름으로 데이터를 저장한다.
-        return "loopex";                // loopex.mustache 파일을 찾아 렌더링한다.
+
+        // templates에서 loopex.mustache 파일을 찾아 렌더링한다.
+        return "loopex";
+
     }
 
     @GetMapping("/partialex")                    // "/partialex"로 들어오는 GET 요청을 이 메서드가 처리한다.
