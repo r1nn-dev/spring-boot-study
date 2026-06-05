@@ -2,6 +2,7 @@ package com.example.templateproject.controller;
 
 public class Person {
 
+    // 선언
     private final String name;
     private final int age;
     private final String address;
@@ -26,6 +27,7 @@ public class Person {
         return address;
     }
 
+    // 객체 자체를 출력할 때 사용할 문자열 형식
     @Override
     public String toString() {
         return "Person{" +
