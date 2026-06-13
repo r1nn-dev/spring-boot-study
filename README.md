@@ -18,7 +18,7 @@ spring-boot-study/
 │  ├─ 10-rest-api.md
 │  ├─ 11-java-stream.md
 │  ├─ 12-service-transaction.md    
-│  ├─ 13-spring-data-jpa           
+│  ├─ 13-spring-data-jpa.md           
 │  ├─ 14-test-code.md              
 │  └─ 15-comment-crud.md           
 │
