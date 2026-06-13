@@ -19,8 +19,8 @@ spring-boot-study/
 │  ├─ 11-java-stream.md
 │  ├─ 12-service-transaction.md    
 │  ├─ 13-spring-data-jpa           
-│  ├─ 14-test-code.md              #
-│  └─ 15-comment-crud.md           #
+│  ├─ 14-test-code.md              
+│  └─ 15-comment-crud.md           
 │
 ├─ firstproject/                # 기존 통합 실습 (임시 유지)
 ├─ 01-first-project/springproject/
