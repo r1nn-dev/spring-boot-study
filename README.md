@@ -38,14 +38,14 @@ spring-boot-study/
 │  └─ memberproject                       # memeber-project
 ├─ 09-database-form-dto/springproject/
 ├─ 10-rest-api/
-│  ├─ boardproject                        # restapi-project
-│  └─ coffeeproject                       # coffee-project
-├─ 11-java-stream/springproject/
-├─ 12-service-transaction/boardproject/       
-├─ 13-jpa-project/boardproject/
-├─ 14-test-code-project/springproject/
+│  ├─ boardproject                          # restapi-project
+│  └─ coffeeproject                         # coffee-project
+├─ 11-java-stream/springproject/            # stream-project
+├─ 12-service-transaction/boardproject/     
+├─ 13-jpa-project/boardproject/             # jpa-project
+├─ 14-test-code-project/springproject/    
 ├─ 15-comment-project/springproject/
-└─ 16-board-project/boardproject/          # 최종 프로젝트
+└─ 16-board-project/boardproject/           # 최종 프로젝트
 ```
 
 ## 개발 환경 및 프로젝트 생성 기준
